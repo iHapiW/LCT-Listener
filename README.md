@@ -10,7 +10,7 @@ First Build your Malware from the [Other repository](https://github.com/iHapiW/L
 *Note that if the Target is not in the Local Network, You should Handle the "Port Forwarding" Operations.*
 
 Then Install Required Packages by `npm install`, so you can start listener by `node app.js` command.<br/>
-And You can go ahead and beautify Recieved JSON with whatever tool that you want, but the simple way that i use is :
+And You can go ahead and beautify Received JSON with whatever tool that you want, but the simple way that i use is :
 ```
 python3 -m json.tool JSONFILE
 ```
