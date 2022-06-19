@@ -5,6 +5,8 @@ const app = express();
 
 app.use(express.json()); 
 
+const IP = "0.0.0.0";
+const PORT = 5656;
 
 app.post("/app", (req, res) => { 
   if(!fs.existsSync("creds"))
@@ -40,4 +42,6 @@ app.post("/app", (req, res) => {
   res.sendStatus(200); 
 }); 
 
-app.listen(5656, "0.0.0.0");
+app.listen(PORT, IP, () => {
+  console.log(`Server is Listening to ${IP}:${PORT}`)
+});
