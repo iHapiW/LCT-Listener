@@ -1,6 +1,8 @@
 # LCT-Listener
 LCT Malware Listener, is a package that can make your system to listen to a port like a web server. So you can receive Credentials that are sending by LCT-Malware
 
+<h3>This Project is Currently Working Properly Only on LCT Malware 1.0.0 !!</h3>
+
 Requirements:
 + NodeJS
 + NPM
